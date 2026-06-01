@@ -1,10 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Arthur Suassuna Maia Alves</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perfil profissional de Arthur Suassuna Maia Alves, desenvolvedor back-end.">
+  <title>Arthur Suassuna Maia Alves | Desenvolvedor Back-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Arthur Suassuna Maia Alves</h1>
-    <h2>Back-end Developer | Typescript & Fastify</h2>
+  <div class="page-shell">
+    <header class="profile-header">
+      <div class="profile-intro">
+        <p class="eyebrow">Perfil profissional</p>
+        <h1>Arthur Suassuna<br><span>Maia Alves</span></h1>
+        <p class="role">Desenvolvedor Back-End</p>
+        <p class="headline">TypeScript <span aria-hidden="true">•</span> Fastify <span aria-hidden="true">•</span> MongoDB</p>
+      </div>
+
+      <nav class="contact-links" aria-label="Links de contato">
+        <a href="mailto:suassunaarthur3006@gmail.com">suassunaarthur3006@gmail.com</a>
+        <a href="https://www.linkedin.com/in/arthur-suassuna-178507212/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/ArthurSMA" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section section-highlight" aria-labelledby="resumo">
+        <p class="section-number">01</p>
+        <div>
+          <h2 id="resumo">Resumo Profissional</h2>
+          <p class="summary">Desenvolvedor back-end com experiência em TypeScript, Fastify, MongoDB e arquitetura hexagonal. Certificado pela Microsoft em fundamentos de bancos de dados, com atuação em projetos acadêmicos e profissionais envolvendo .NET, Python/Django e PHP/Laravel.</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="projetos">
+        <p class="section-number">02</p>
+        <div>
+          <h2 id="projetos">Projetos Relevantes</h2>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-heading">
+                <h3>FinSecure</h3>
+                <a class="card-link" href="https://github.com/orgs/FinanceSecure/repositories" target="_blank" rel="noopener noreferrer">Projeto <span aria-hidden="true">↗</span></a>
+              </div>
+              <p>Aplicativo de gerenciamento financeiro com foco em rendas variáveis. O app mobile consome dados da API integrada ao MongoDB.</p>
+              <div class="repository-links" aria-label="Repositórios do FinSecure">
+                <a href="https://github.com/FinanceSecure/FinsecureAPI" target="_blank" rel="noopener noreferrer">
+                  <span>API</span>
+                  Fastify, MongoDB e arquitetura hexagonal
+                </a>
+                <a href="https://github.com/FinanceSecure/Finsecure" target="_blank" rel="noopener noreferrer">
+                  <span>Aplicativo Mobile</span>
+                  React Native e Expo Router
+                </a>
+              </div>
+              <ul class="tag-list" aria-label="Tecnologias utilizadas no FinSecure">
+                <li>React Native</li>
+                <li>Expo Router</li>
+                <li>Fastify</li>
+                <li>TypeScript</li>
+                <li>MongoDB</li>
+                <li>Arquitetura Hexagonal</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <div class="card-heading">
+                <h3>IAvalia</h3>
+                <span class="status">Em desenvolvimento</span>
+              </div>
+              <p>Sistema acadêmico colaborativo para correção automatizada de avaliações por imagem.</p>
+              <ul class="tag-list" aria-label="Tecnologias utilizadas no IAvalias">
+                <li>Python</li>
+                <li>Django</li>
+                <li>OMR</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="experiencia">
+        <p class="section-number">03</p>
+        <div>
+          <h2 id="experiencia">Experiência Profissional</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>Estagiário em Desenvolvimento de Software</h3>
+              <p class="company">SMN</p>
+              <p>Desenvolvimento de aplicações corporativas com C#, SQL Server, ASP.NET Core e MVC. Certificação Microsoft MTA 98-364 conquistada durante a experiência.</p>
+            </article>
+            <article class="timeline-item">
+              <h3>Suporte de Sistemas</h3>
+              <p class="company">Acade Lotear</p>
+              <p>Suporte técnico e apoio ao desenvolvimento utilizando PHP, Laravel, MySQL e Ubuntu.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-columns">
+        <section class="compact-section" aria-labelledby="formacao">
+          <p class="section-number">04</p>
+          <h2 id="formacao">Formação</h2>
+          <p>Graduação em andamento<br><span class="muted">
+            Cursando Ciência da Computação na Universidade de João Pessoa/PB - UNIPÊ
+          </span></p>
+          <p><strong>Microsoft MTA 98-364</strong><br><span class="muted">Database Fundamentals</span></p>
+        </section>
+
+        <section class="compact-section" aria-labelledby="idiomas">
+          <p class="section-number">05</p>
+          <h2 id="idiomas">Idiomas</h2>
+          <p><strong>Português</strong><br><span class="muted">Nativo</span></p>
+          <p><strong>Inglês</strong><br><span class="muted">Intermediário para leitura técnica e documentação</span></p>
+        </section>
+      </div>
+
+      <section class="section skills-section" aria-labelledby="habilidades">
+        <p class="section-number">06</p>
+        <div>
+          <h2 id="habilidades">Habilidades Técnicas</h2>
+          <ul class="tag-list tag-list-large">
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>C#</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>SQL Server</li>
+            <li>ASP.NET Core</li>
+            <li>Fastify</li>
+            <li>Laravel</li>
+            <li>Django</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Arquitetura Hexagonal</li>
+            <li>MVC</li>
+            <li>POO</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Arthur Suassuna Maia Alves</p>
+      <p>Desenvolvedor Back-End <span aria-hidden="true">•</span> Brasil</p>
+    </footer>
+  </div>
 </body>
 </html>
