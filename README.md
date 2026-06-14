@@ -1,9 +1,24 @@
-# Perfil Profissional | Arthur Suassuna
+# ArthurSMA.dev — MagoDev Portfolio
 
-Portfólio pessoal de Arthur Suassuna Maia Alves, Desenvolvedor de Software Full-Stack com perfil generalista e experiência em aplicações web, mobile e APIs.
+Estrutura organizada para GitHub Pages:
 
-O perfil apresenta projetos, experiências profissionais, formação e conhecimentos em tecnologias como React, React Native, TypeScript, Fastify, MongoDB, C#, ASP.NET Core, PHP, Laravel e bancos de dados relacionais.
+```txt
+assets/
+  DevProfileArthurS.jpeg
+  DevProfileArthurS-*.webp
+  favicon.ico
+  favicon-*.png
+  apple-touch-icon.png
+  styles.css
+  main.js
+  three-hero.js
+index.html
+README.md
+```
 
-## Acesso
+## Notas de performance
 
-Disponível em: https://arthursma.github.io
+- Three.js é carregado dinamicamente apenas quando a tela suporta melhor a animação.
+- Em celulares pequenos, `prefers-reduced-motion` ou dispositivos com pouca memória, o canvas 3D é reduzido ou desativado.
+- A foto profissional usa `picture` com WebP responsivo e fallback JPG otimizado.
+- CSS e JS foram separados em `assets/` para manter `index.html` focado na apresentação.
